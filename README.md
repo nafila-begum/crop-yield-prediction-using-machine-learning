@@ -106,7 +106,7 @@ Crop-Yield-Prediction/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Crop-Yield-Prediction.git
+https://github.com/nafila-begum/crop-yield-prediction-using-machine-learning.git
 ```
 
 ### Navigate to the project directory
@@ -178,4 +178,3 @@ Madurai Kamaraj University
 
 ---
 
-⭐ **If you found this project helpful, please consider giving this repository a Star.**
