@@ -162,7 +162,7 @@ The Random Forest model achieved excellent prediction performance by accurately 
 
 ## 📜 License
 
-This project was developed for educational and academic purposes. You are welcome to use it for learning, research, and non-commercial applications with appropriate attribution.
+This project is intended for learning and educational purposes.
 
 ---
 
