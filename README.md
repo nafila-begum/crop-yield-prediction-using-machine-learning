@@ -2,18 +2,18 @@
 
 ## 📌 Overview
 
-Crop Yield Prediction Using Machine Learning is a B.Sc. Computer Science final-year project that helps predict the most suitable crop based on soil nutrients and environmental conditions. The project applies the **Random Forest** machine learning algorithm to analyze agricultural data and provide accurate crop recommendations.
+**Crop Yield Prediction Using Machine Learning** is a Bachelor's final-year project developed to predict suitable crops based on soil nutrients and environmental conditions using Machine Learning. The project leverages the **Random Forest Classifier** to analyze agricultural data and recommend crops with high prediction accuracy.
 
-The objective of this project is to support farmers in making data-driven decisions that improve agricultural productivity, optimize resource utilization, and reduce crop losses.
+This project aims to assist farmers and agricultural stakeholders in making data-driven decisions, improving crop productivity, optimizing resource utilization, and supporting sustainable farming practices.
 
 ---
 
 ## 🎯 Objectives
 
-* Predict suitable crops using machine learning.
-* Analyze agricultural data based on soil and weather conditions.
-* Improve farming decisions through intelligent crop recommendations.
-* Reduce crop failure and increase agricultural productivity.
+* Predict suitable crops based on soil and environmental parameters.
+* Apply Machine Learning techniques to agricultural data.
+* Improve decision-making in farming through intelligent crop recommendations.
+* Enhance agricultural productivity while reducing crop failure.
 
 ---
 
@@ -21,17 +21,17 @@ The objective of this project is to support farmers in making data-driven decisi
 
 * Data preprocessing and cleaning
 * Exploratory Data Analysis (EDA)
-* Data visualization
+* Data visualization using Matplotlib and Seaborn
 * Random Forest model training
-* Crop prediction based on user inputs
-* Performance evaluation with accuracy metrics
-* Easy-to-understand prediction results
+* Model evaluation and performance analysis
+* Crop prediction based on user input
+* High-accuracy recommendation system
 
 ---
 
 ## 📊 Dataset
 
-The project uses the **Crop Recommendation Dataset**, which contains agricultural parameters such as:
+The project uses the **Crop Recommendation Dataset**, which includes the following features:
 
 * Nitrogen (N)
 * Phosphorus (P)
@@ -52,11 +52,11 @@ The project uses the **Crop Recommendation Dataset**, which contains agricultura
 
 ### Libraries
 
-* Pandas
 * NumPy
-* Scikit-learn
+* Pandas
 * Matplotlib
-* seaborn
+* Seaborn
+* Scikit-learn
 
 ### Development Environment
 
@@ -66,9 +66,9 @@ The project uses the **Crop Recommendation Dataset**, which contains agricultura
 
 ## 🤖 Machine Learning Algorithm
 
-* Random Forest Classifier
+**Random Forest Classifier**
 
-The Random Forest algorithm was selected because of its high prediction accuracy, robustness, and ability to handle complex agricultural datasets effectively.
+The Random Forest algorithm was selected for its robustness, high accuracy, and ability to handle complex agricultural datasets effectively. It combines multiple decision trees to improve prediction performance and reduce overfitting.
 
 ---
 
@@ -76,9 +76,9 @@ The Random Forest algorithm was selected because of its high prediction accuracy
 
 1. Data Collection
 2. Data Preprocessing
-3. Data Exploration
+3. Exploratory Data Analysis (EDA)
 4. Data Visualization
-5. Feature Analysis
+5. Feature Engineering
 6. Model Training
 7. Model Evaluation
 8. Crop Prediction
@@ -88,11 +88,11 @@ The Random Forest algorithm was selected because of its high prediction accuracy
 
 ## 📁 Project Structure
 
-```
+```text
 Crop-Yield-Prediction/
 │
 ├── Crop_recommendation.csv
-├── crop_yield_prediction.ipynb
+├── Crop_Yield_Prediction.ipynb
 ├── PROJECT_DOCUMENT.pdf
 ├── Presentation.pdf
 ├── README.md
@@ -101,45 +101,48 @@ Crop-Yield-Prediction/
 
 ---
 
-## 🚀 How to Run
+## 🚀 Installation
 
-1. Clone the repository.
+### Clone the repository
 
 ```bash
 git clone https://github.com/your-username/Crop-Yield-Prediction.git
 ```
 
-2. Navigate to the project folder.
+### Navigate to the project directory
 
 ```bash
 cd Crop-Yield-Prediction
 ```
 
-3. Install the required libraries.
+### Install the required dependencies
 
 ```bash
-pip install pandas numpy matplotlib scikit-learn
+pip install -r requirements.txt
 ```
 
-4. Open the notebook in Google Colab or Jupyter Notebook.
+### Run the Project
 
-5. Run all cells to train the model and generate crop predictions.
+* Open the notebook in **Google Colab** or **Jupyter Notebook**.
+* Execute all cells sequentially.
+* Enter the required soil and environmental parameters.
+* View the predicted crop recommendation.
 
 ---
 
 ## 📊 Results
 
-The Random Forest model achieved high prediction accuracy and successfully recommended suitable crops using soil nutrients and environmental parameters. The project demonstrates how machine learning can support modern agriculture by enabling efficient and informed farming decisions.
+The Random Forest model achieved excellent prediction performance by accurately recommending crops based on soil nutrients and climatic conditions. The project demonstrates the effectiveness of Machine Learning in modern agriculture and supports informed decision-making for improved farming outcomes.
 
 ---
 
 ## 🔮 Future Enhancements
 
-* Deploy the model as a web application using Flask or Streamlit.
-* Integrate real-time weather and soil sensor data.
-* Improve prediction accuracy using XGBoost or Deep Learning.
+* Deploy the model using Flask or Streamlit.
+* Integrate real-time weather and IoT sensor data.
+* Explore advanced algorithms such as XGBoost and Deep Learning.
+* Develop a mobile-friendly application.
 * Add multilingual support for farmers.
-* Develop a mobile application for easy accessibility.
 
 ---
 
@@ -153,13 +156,13 @@ The Random Forest model achieved high prediction accuracy and successfully recom
 
 **College:** Arulmigu Palaniandavar College of Arts and Culture, Palani
 
-**Academic Year:** 2022–2025
+**Academic Year:** 2024–2025
 
 ---
 
 ## 📜 License
 
-This project was developed for educational and academic purposes. Feel free to use it for learning and research with proper attribution.
+This project was developed for educational and academic purposes. You are welcome to use it for learning, research, and non-commercial applications with appropriate attribution.
 
 ---
 
@@ -173,8 +176,6 @@ Arulmigu Palaniandavar College of Arts and Culture
 
 Madurai Kamaraj University
 
-GitHub: https://github.com/your-username
-
 ---
 
-⭐ If you found this project useful, please consider giving it a **Star** on GitHub!
+⭐ **If you found this project helpful, please consider giving this repository a Star.**
