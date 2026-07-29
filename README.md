@@ -56,6 +56,7 @@ The project uses the **Crop Recommendation Dataset**, which contains agricultura
 * NumPy
 * Scikit-learn
 * Matplotlib
+* seaborn
 
 ### Development Environment
 
