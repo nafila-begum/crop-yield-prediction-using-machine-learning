@@ -1,0 +1,10 @@
+# Core Libraries
+numpy
+pandas
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
